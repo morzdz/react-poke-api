@@ -1,0 +1,50 @@
+body {
+  background-color: #faa307;
+  justify-content: center;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+.card {
+  background-color: #fefae0;
+  width: 200px;
+  height: 250px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+.title {
+  margin: 2em;
+}
+
+.search {
+  margin: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+#input {
+  min-width: 340px;
+}
+
+input {
+  min-width: 300px;
+  min-height: 3em;
+  border-radius: 12px;
+  border: none;
+}
+
+#btn {
+  height: 3em;
+  display: flex;
+  gap: 1em;
+}
